@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Fitness Gym</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+        body { background-color: #111; color: #fff; padding: 20px; text-align: center; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)); padding: 60px 20px; border-radius: 10px; border: 1px solid #ff4500; }
+        h1 { color: #ff4500; font-size: 2.5rem; margin-bottom: 10px; }
+        p { color: #ccc; margin-bottom: 25px; }
+        .plans { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 30px; }
+        .card { background: #222; border: 1px solid #333; padding: 20px; border-radius: 8px; width: 200px; }
+        .card h3 { color: #ff4500; margin-bottom: 10px; }
+        .btn { display: inline-block; background: #ff4500; color: #fff; padding: 12px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>SHAPE YOUR BODY</h1>
+        <p>Join the best premium gym in town and unleash your inner beast today.</p>
+        <div class="plans">
+            <div class="card">
+                <h3>Monthly</h3>
+                <p>$29 / Month</p>
+            </div>
+            <div class="card">
+                <h3>Yearly</h3>
+                <p>$249 / Year</p>
+            </div>
+        </div>
+        <a href="#" class="btn">Join Now</a>
+    </div>
+</body>
+</html>
